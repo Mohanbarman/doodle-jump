@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.root {
+  height: 900px;
+  width: 500px;
+  background-color: yellow;
+  position: relative;
+  overflow: hidden;
+}
+
+.doodler {
+  height: 100px;
+  width: 70px;
+  background-color: blue;
+  position: absolute;
+}
+
+.platform {
+    height: 20px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    /* transition: all linear 1s; */
+}
